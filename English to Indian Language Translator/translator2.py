@@ -6,9 +6,9 @@ from ibm_watson import LanguageTranslatorV3
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 
 #using watson language translate instance. You can use your own, read the readme file for further info
-URL_LT = 'https://api.kr-seo.language-translator.watson.cloud.ibm.com/instances/82d9fe65-8b30-4663-8cce-70dbbe88f547'
-APIKEY_LT = '5QUnMcdZqq_VEUEJfmIxF_VU4Hk1Ki-cShbnN4biRdIq'
-VERSION_LT = '2018-05-01'
+URL_LT = 'YOUR_WATSON_TRANSLATOR_URL_KEY'
+APIKEY_LT = 'YOUR_WATSON_TRANSLATOR_API_KEY'
+VERSION_LT = '2018-05-01' #CHECK FOR THE LATEST DATE IN DOCUMENTATION
 
 #building an autheticator and translation model
 authenticator = IAMAuthenticator(APIKEY_LT)
